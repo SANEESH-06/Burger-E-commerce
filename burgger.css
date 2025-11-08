@@ -1,0 +1,122 @@
+#body {
+    background: #f0bc4c;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+#nav {
+    background: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    flex-flow: row;
+    display: flex;
+    
+
+}
+#nav1{
+    display: flex;
+    font-size: 30px;
+}
+#nav2{
+    display: flex;
+    font-size: 30px;
+    display: flex;
+    justify-content: end;
+
+}
+#navdiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 1200px;
+}
+
+#icon {
+    /* make it visible */
+    width: 50px;
+    height: 50px;
+    color: black;
+
+}
+
+#main {
+    color: black;
+
+}
+
+.div1 {
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    margin-top: 150px;
+}
+
+#m1 {
+    color: #6e4800;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 10px; 
+    border: 4px, dotted rgb(177, 108, 29); 
+    border-radius: 0px; 
+    display: inline-block; 
+}
+
+#m2 {
+    margin-top: 0px;
+    font-size: 100px;
+    height: 1px;
+
+}
+
+#m3 {
+    font-size: 50px;
+
+}
+
+#mfren {
+    transform: rotate(-25deg);
+    margin-left: 200px;
+    position: relative;
+    margin-bottom: 105px;
+    z-index: 1;
+}
+
+#mbur {
+    position: relative;
+    z-index: 10;
+    margin-left: -360px;
+    margin-top: -50px;
+}
+
+#mcoca {
+    transform: rotate(0deg);
+    margin-left: -400px;
+    position: relative;
+    z-index: 1;
+}
+#doller{
+    transform: rotate(0deg);
+
+    margin-left: -1000px;
+    margin-top: 420px;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 15;
+
+}
+#landing1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* margin-top: 60px; */
+}
+
+#burdiv {
+    margin-top: 50px;
+
+}
